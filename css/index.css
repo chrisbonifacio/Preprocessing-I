@@ -293,7 +293,6 @@ header nav a:hover:hover {
 }
 #Resume .history h2 {
   padding-bottom: 10px;
-  border-bottom: 1px solid #dfdfdf;
 }
 #Resume .history table {
   display: flex;
@@ -309,6 +308,10 @@ header nav a:hover:hover {
   display: flex;
   padding: 1em;
   justify-content: space-between;
+  border-top: 1px solid rgba(100, 88, 98, 0.3);
+}
+#Resume .history table tbody tr:first-of-type {
+  border-bottom: 1px solid rgba(100, 88, 98, 0.5);
 }
 #Resume .history table tbody tr:nth-of-type(2n + 0) {
   background: #ecf0f1;
